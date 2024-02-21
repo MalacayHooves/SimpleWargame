@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9da27a05928437043bb6c6ecdb04361b, type: 3}
+  m_Name: AbilityBarkskin
+  m_EditorClassIdentifier: 
+  abilityName: Barkskin
+  abilityDescription: Increases defense of a friendly units for a few turns
+  abilityIcon: {fileID: 21300000, guid: ca1aec15575677c44bbdffb6421e4524, type: 3}
+  effects:
+    _pairs:
+    - _key: {fileID: 11400000, guid: 3af1a40185d9be94482838e3dae734cd, type: 2}
+      _value: 3
+  unitActionType: 0
+  target: 0
+  abilityAICost: 0
+  barkskinGameObject: {fileID: 3764406072388139082, guid: 879b3e4447a8cb24192fe98f532cdbbc, type: 3}
+  abilityRange: 3

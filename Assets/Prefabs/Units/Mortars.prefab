@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5170100923731758743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792649086482181884, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: unitName
+      value: Mortars
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: unitSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2fada0fdd314f7449a1c4142148fd21, type: 3}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: unitDescription
+      value: Anti-infantry unit with long range.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.Range
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.Attack
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.Damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.Health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.Defense
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.UnitCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.UnitCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: innateEffects.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: innateEffects.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 794328d8168907e4ba8c6afc2b6dc141, type: 2}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: innateEffects.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 89e16ccc44b82d041bff7c709e31826c, type: 2}
+    - target: {fileID: 3402973451894849664, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: baseUnitStats.AttackAfterMovement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5879951111820205938, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}
+      propertyPath: m_Name
+      value: Mortars
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9747ce01c2f69e840b5507162783c6f9, type: 3}

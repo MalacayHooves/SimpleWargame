@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d218edccb04a046b1f935ffbf7e376, type: 3}
+  m_Name: AbilityThunderstorm
+  m_EditorClassIdentifier: 
+  abilityName: Thunderstorm
+  abilityDescription: Decreases range and attack of ranged units in the area. Each
+    turn create few lightnings at random places, which deal moderate damage.
+  abilityIcon: {fileID: 21300000, guid: c3309a666e059b14d89f7a51f5420dbf, type: 3}
+  effects:
+    _pairs:
+    - _key: {fileID: 11400000, guid: 96b69ebc41dfd04449eb2ea18dd1fc3c, type: 2}
+      _value: 0
+  unitActionType: 0
+  target: 2
+  abilityAICost: 0
+  thunderstormGO: {fileID: 2039116455007266890, guid: b8acf445714fd0948a6ec1d80eb003cd, type: 3}
+  lightningSprite: {fileID: 21300000, guid: d9c9c5943f10fc34c88780b1e7dcf72c, type: 3}
+  thunderstormDuration: 2
+  lightningChanceToSpawn: 10
+  lightningChanceToHit: 30
+  lightningNumberOfTargets: 5
+  lightningDamage: 15

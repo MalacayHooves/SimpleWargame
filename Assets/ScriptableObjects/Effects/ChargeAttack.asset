@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711a85fc484e9844f9a1b115681c182e, type: 3}
+  m_Name: ChargeAttack
+  m_EditorClassIdentifier: 
+  effectName: Charge
+  effectDescription: Increases attack after movement
+  effectIcon: {fileID: 21300000, guid: d0f7e4a6d5b7e5641a0f712dcd0c1050, type: 3}
+  activatesAt: 1
+  chargeAttackStack: {fileID: 11400000, guid: 9d01c6374f44e07429e77d1db1111ef8, type: 2}
