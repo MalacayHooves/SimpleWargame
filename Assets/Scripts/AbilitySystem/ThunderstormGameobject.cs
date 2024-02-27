@@ -1,6 +1,7 @@
 using SimpleWargame.BattleManagement;
 using SimpleWargame.EffectSystem;
 using SimpleWargame.Map;
+using SimpleWargame.Units;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ namespace SimpleWargame.AbilitySystem
     public class ThunderstormGameobject : MonoBehaviour, IDragHandler, IPointerClickHandler, IBeginDragHandler, IEndDragHandler
     {
         [SerializeField] private GameObject lightningGameObject;
+        [SerializeField] private GameObject tooltipGameObject;
         [SerializeField] private CanvasGroup canvasGroup;
 
         private List<TileData> tiles = new List<TileData>();
@@ -48,6 +50,7 @@ namespace SimpleWargame.AbilitySystem
             offsets.Add(new Vector3(1, -1, 0));
 
             MapManager.Instance.OnSendClickedTile += MapManager_OnSendClickedTile;
+            Unit.OnClickedUnit += Unit_OnClickedUnit;
             BattleManager.Instance.OnStartNewTurn += BattleManager_OnStartNewTurn;
         }
 
@@ -70,6 +73,7 @@ namespace SimpleWargame.AbilitySystem
         {
             canvasGroup.blocksRaycasts = false;
             MapManager.Instance.OnSendClickedTile -= MapManager_OnSendClickedTile;
+            Unit.OnClickedUnit -= Unit_OnClickedUnit;
             isSpawnConfirmed = true;
         }
 
@@ -97,6 +101,8 @@ namespace SimpleWargame.AbilitySystem
 
                 tiles.Add(tile);
             }
+
+            tooltipGameObject.SetActive(false);
 
             await CreateLightnings();
         }
@@ -140,6 +146,11 @@ namespace SimpleWargame.AbilitySystem
 
                 Destroy(gameObject);
             }
+        }
+
+        private void Unit_OnClickedUnit(object sender, Unit.OnClickedUnitEventsArgs e)
+        {
+            transform.position = e.Unit.Tile.CenterPosition;
         }
 
         private void MapManager_OnSendClickedTile(object sender, MapManager.OnSendClickedTileEventArgs e)

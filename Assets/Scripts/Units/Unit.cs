@@ -66,6 +66,11 @@ namespace SimpleWargame.Units
         public List<Ability> Abilities => abilities;
 
         public event EventHandler OnHealthChanged;
+        public static event EventHandler<OnClickedUnitEventsArgs> OnClickedUnit;
+        public class OnClickedUnitEventsArgs: EventArgs
+        {
+            public Unit Unit;
+        }
 
         private UnitStats unitStats;
         private Vector3 beginDragPosition;
@@ -121,6 +126,8 @@ namespace SimpleWargame.Units
 
         public void ClickUnit()
         {
+            OnClickedUnit?.Invoke(this, new OnClickedUnitEventsArgs { Unit = this });
+
             if (IsUnderAttack)
             {
                 BattleManager.Instance.SetTargetUnit(this);

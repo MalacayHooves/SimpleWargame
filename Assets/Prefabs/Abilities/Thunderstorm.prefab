@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightningGameObject: {fileID: 3764406072388139082, guid: 879b3e4447a8cb24192fe98f532cdbbc, type: 3}
+  tooltipGameObject: {fileID: 1039765172335144576}
   canvasGroup: {fileID: 3803145353664065440}
 --- !u!114 &8764934480631047877
 MonoBehaviour:

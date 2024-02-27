@@ -9,7 +9,7 @@ namespace SimpleWargame.Input
     /// <summary>
     /// This class handles clicking on units and dragging them
     /// </summary>
-    public class UnitInput : MonoBehaviour, IPointerClickHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
+    public class UnitInput : MonoBehaviour, IPointerClickHandler, IDragHandler, IBeginDragHandler, IEndDragHandler, IDropHandler
     {
         private Unit unit;
 
@@ -36,6 +36,11 @@ namespace SimpleWargame.Input
         public void OnEndDrag(PointerEventData eventData)
         {
             unit.EndDrag();
+        }
+
+        public void OnDrop(PointerEventData eventData)
+        {
+            unit.ClickUnit();
         }
     }
 }
